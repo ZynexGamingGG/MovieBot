@@ -9,6 +9,10 @@ from database import init_db
 import user
 import admin
 
+git add .
+git commit -m "fix imports"
+git push
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
