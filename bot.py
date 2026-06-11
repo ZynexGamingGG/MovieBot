@@ -6,7 +6,8 @@ from aiogram.client.default import DefaultBotProperties
 
 from config import BOT_TOKEN
 from database import init_db
-from handlers import user, admin
+import user
+import admin
 
 logging.basicConfig(
     level=logging.INFO,
